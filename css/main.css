@@ -106,9 +106,9 @@ to {color: var(--primary);}
 
 .my-grid {
     display: grid;
-    width: 80% ;
+    width: 100% ;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    padding: 10px;
+    padding: 0;
     grid-gap: 10px;
 }
 
@@ -150,7 +150,7 @@ to {color: var(--primary);}
 
 .page-title {
     grid-column: 1/span 12;
-    padding: 20px;
+    padding: 0 20px;
 }
 
 .button {
@@ -402,6 +402,7 @@ textarea:focus {
 
 .card-list {
     display: block;
+    width: 100%;
     margin: 1rem auto;
     padding: 0;
     font-size: 0;
@@ -412,7 +413,7 @@ textarea:focus {
 .card {
     display: inline-block;
     width: 90%;
-    max-width: 20rem;
+    max-width: 12rem;
     margin: 1rem;
     font-size: 1rem;
     text-decoration: none;
@@ -428,7 +429,6 @@ textarea:focus {
 
 .card-image {
     display: block;
-    min-height: 20rem; /* layout hack */
     background: #fff center center no-repeat;
     background-size: cover;
 
