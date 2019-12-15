@@ -464,6 +464,7 @@ textarea:focus {
     color: var(--paragraph-text);
     margin: 0;
 }
+
 :root {
     --background-color: #ffffff;
     --primary: #F4001F;
