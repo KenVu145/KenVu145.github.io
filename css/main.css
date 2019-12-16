@@ -540,7 +540,11 @@ textarea:focus {
 
 .product-desc {
     grid-column: span 4;
-    padding-left: 10px;
+/*    padding-left: 10px;*/
     padding-top: 0;
     margin-top: 0;
+}
+
+.link-page {
+/*    margin: 1em 0 0 0;*/
 }
