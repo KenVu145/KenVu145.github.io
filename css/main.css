@@ -115,6 +115,7 @@ to {color: var(--primary);}
     width: 100% ;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     padding: 0;
+    margin-bottom: 10px;
     grid-gap: 10px;
 /*    grid-row-gap: 2em;*/
 }
@@ -529,4 +530,17 @@ textarea:focus {
 }
 .cycle-pager > * { 
     cursor: pointer;
+}
+
+.product-img {
+    grid-column: span 8;
+    width: 80%;
+    align-content: center;
+}
+
+.product-desc {
+    grid-column: span 4;
+    padding-left: 10px;
+    padding-top: 0;
+    margin-top: 0;
 }
