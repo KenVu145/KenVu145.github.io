@@ -17,7 +17,6 @@ body {
     display: -ms-flexbox;
     background-color: var(--background-color);
     /*    -ms-flex-wrap: wrap;*/
-
 }
 
 .nav {
@@ -117,11 +116,36 @@ to {color: var(--primary);}
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     padding: 0;
     grid-gap: 10px;
+/*    grid-row-gap: 2em;*/
+}
+
+.my-grid > .solution {
+    grid-column: span 4;
+    text-align: center;
+    color: var(--primary);
+    padding: 0 auto;
+}
+
+.my-grid > .solution > h3 {
+    text-align: left;
+    padding-left: 3em;
+}
+
+
+.my-grid > .description {
+    grid-column: span 6;
+/*    padding-left: 20px;*/
 }
 
 .my-grid > .heading {
     grid-column: 1 / span 12;
     text-align: center;
+    color: var(--primary);
+}
+
+.my-grid > .price {
+    grid-column: span 2;
+    text-align: right;
     color: var(--primary);
 }
 
@@ -243,9 +267,16 @@ to {right: 0};
 */
 
 .carousel-wrapper {
+    margin-top: 20px;
     width: 100%;
     height: 540px;
-    overflow: hidden;
+    z-index: -1;
+    /*
+    padding: 0;
+    margin: 0;
+    object-fit: cover;
+    */
+    /*    overflow: hidden;*/
 }
 
 .carousel {
@@ -254,13 +285,14 @@ to {right: 0};
 
 .carousel__photo {
     width: 100%;
+    height: 540px;
     object-fit: cover;
     opacity: 0;
-    position: absolute;
+    /*    position: absolute;*/
     top:0;
     padding: 0;
     margin: 0;
-    padding: 1rem 4rem;
+    /*    padding: 1rem 4rem;*/
     z-index: 100;
     transition: transform .5s, opacity .5s, z-index .5s;
 }
@@ -479,6 +511,9 @@ textarea:focus {
 .cycle-pager { 
     width: 269px ;
     text-align: center;
+    margin-top: -100px;
+    position: absolute;
+    z-index: 1;
 }
 .cycle-pager span { 
     font-family: arial; 
