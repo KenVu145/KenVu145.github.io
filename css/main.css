@@ -512,9 +512,9 @@ textarea:focus {
 .cycle-pager { 
     width: 269px ;
     text-align: center;
-    margin-top: -100px;
-    position: absolute;
-    z-index: 1;
+/*    margin-top: -100px;*/
+/*    position: absolute;*/
+/*    z-index: 1;*/
 }
 .cycle-pager span { 
     font-family: arial; 
