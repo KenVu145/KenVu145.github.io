@@ -288,14 +288,11 @@ to {right: 0};
     width: 100%;
     height: 540px;
     object-fit: cover;
-/*    opacity: 0;*/
-    /*    position: absolute;*/
+
     top:0;
     padding: 0;
     margin: 0;
-    /*    padding: 1rem 4rem;*/
-/*    z-index: 100;*/
-/*    transition: transform .5s, opacity .5s, z-index .5s;*/
+ 
 }
 
 form {
